@@ -1,0 +1,14 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Poppins',sans-serif}
+body{background:#f6f8fb;color:#0b1730;min-height:100vh}
+.header{display:flex;justify-content:space-between;align-items:center;padding:18px 6%;background:white;box-shadow:0 6px 18px rgba(12,24,48,0.06)}
+.logo{font-weight:700;color:#0b1730}
+nav a{margin-left:18px;text-decoration:none;color:#374151;font-weight:600}
+.shop{padding:36px 6%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:18px}
+.card{background:white;padding:18px;border-radius:12px;box-shadow:0 6px 16px rgba(14,30,60,0.05);text-align:center}
+.thumb{height:120px;border-radius:8px;background:linear-gradient(135deg,#e2e8f0,#f8fafc);display:flex;align-items:center;justify-content:center;color:#9aa6b2;font-weight:700}
+.price{font-weight:700;margin:14px 0}
+.btn{background:#0b61ff;color:white;padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
+.product{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:36px 6%}
+.cart{padding:36px 6%}
+.footer{text-align:center;padding:24px;color:#94a3b8}

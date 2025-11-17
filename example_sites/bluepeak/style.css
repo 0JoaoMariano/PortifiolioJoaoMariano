@@ -1,0 +1,19 @@
+:root{--accent:#2e6bff;--dark:#081126;--muted:#98a0b3}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Poppins',sans-serif}
+body{background:linear-gradient(180deg,var(--dark),#071028);color:#eaf0ff;min-height:100vh}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:22px 6%;}
+.brand{font-weight:700;font-size:1.25rem}
+.brand span{color:var(--accent)}
+nav a{color:rgba(234,240,255,0.85);margin-left:18px;text-decoration:none;font-weight:600}
+.hero{padding:80px 6%;display:flex;align-items:center;min-height:60vh}
+.hero-inner{max-width:780px}
+.hero h1{font-size:2.1rem;margin-bottom:12px;letter-spacing:-0.3px}
+.cta{display:inline-block;margin-top:18px;background:var(--accent);color:white;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:700}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;padding:40px 6%}
+.features article{background:rgba(255,255,255,0.03);padding:22px;border-radius:12px}
+.content{padding:40px 6%}
+.list{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.site-footer{text-align:center;padding:26px;color:var(--muted);margin-top:40px}
+.form{display:flex;flex-direction:column;gap:12px;max-width:520px}
+input,textarea{padding:12px;border-radius:10px;border:none;background:rgba(255,255,255,0.04);color:inherit}
+.btn{background:var(--accent);color:white;padding:12px;border-radius:10px;border:none;font-weight:700}
